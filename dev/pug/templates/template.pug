@@ -1,0 +1,21 @@
+include ../config/config
+include ../mixins/mixins
+<!Doctype html>
+html
+	head
+		title Web Fashion
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="fonts/styles.css")
+		link(rel="stylesheet", href="css/style.css")
+		link(href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600|Playfair+Display:400,500,600,700,900&display=swap" rel="stylesheet")
+		script( src="js/lazyload.js")
+	body
+		block header
+		block slider
+		block recentNew
+		block container-main-aside
+		block subscribe
+		block footer
+		script( src="js/app.js")
+		
